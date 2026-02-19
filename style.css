@@ -73,12 +73,30 @@ table {
 /* GLOBAL CSS */
 header {
     text-align: center;
+    background-color: var(--Purple);
+    padding: 2rem 0 0 0;
 }
 
 nav {
     background-color: var(--Yellow);
     padding: 1em;
-    margin: 2rem 0rem 1rem 0rem;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+nav h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    /* color: var(--Purple); */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--White);
+    padding: 1em;
+    margin: .5em;
 }
 
 body {
