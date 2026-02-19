@@ -71,9 +71,21 @@ table {
 }
 
 /* GLOBAL CSS */
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: var(--Yellow);
+    padding: 1em;
+    margin: 2rem 0rem 1rem 0rem;
+}
 
 body {
     font-family: var(--secondary-font);
+    background-color: var(--Lavender);
+    margin: 0 auto;
+    max-width: 450px;
 }
 
 h1, h2 {
@@ -85,6 +97,11 @@ h1 {
     font-size: 3em;
 }
 
+#slogan {
+    /* font-size: 1.25em; */
+    color: var(--White);
+    margin-top: 0.5em;
+}
 h2 {
     font-size: 2em;
 }
