@@ -94,7 +94,9 @@ h2 {
 }
 
 nav h2 {
-    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--Dark-grey);
 }
 
 h3 {
@@ -120,12 +122,6 @@ nav {
     background-color: var(--Yellow);
     padding: 1em;
     margin: 3rem -1rem 1rem -1rem;
-}
-
-nav h3 {
-    font-weight: bold;
-    font-style: italic;
-    color: var(--Dark-grey);
 }
 
 nav a {
