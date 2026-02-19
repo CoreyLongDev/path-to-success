@@ -130,6 +130,8 @@ nav h2 {
 
 h3 {
     font-size: 1.5em;
+    color: var(--Yellow);
+    font-weight: bold;
 }
 
 h4 {
