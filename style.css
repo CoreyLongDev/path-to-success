@@ -165,6 +165,23 @@ article {
 
 }
 
+table {
+    margin: 0.5rem auto;
+}
+
+th {
+    background-color: var(--Yellow);
+    padding: 1rem;
+    font-weight: bold;
+}
+
+tr, td {
+    border: 2px solid var(--Yellow);
+    padding: 1.25rem;
+    background-color: var(--White);
+}
+
+
 h1, h2 {
     font-family: var(--main-font);
     color: var(--White);
