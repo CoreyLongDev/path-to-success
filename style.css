@@ -181,7 +181,26 @@ tr, td {
     background-color: var(--White);
 }
 
+.subscription-container {
+    background-color: var(--Pink);
+    color: var(--White);
+    padding: 1rem 1em;
+    margin: 1rem -1rem 1rem -1rem;
+    line-height: 1.5rem;
+}
 
+.subscription-container h2{
+    padding-bottom: 0.5rem;
+}
+
+button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
 h1, h2 {
     font-family: var(--main-font);
     color: var(--White);
