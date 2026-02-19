@@ -128,31 +128,43 @@ article {
 }
 
 .choose-us-container h2 {
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
 }
 
 .choose-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .5em;
+    gap: 1em;
     text-align: center;
+    color: var(--Dark-grey);
+}
+
+.choose-grid li {
+    padding: 2.5em;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .card-one {
     background-color: var(--Teal);
+
 }
 
 .card-two {
     background-color: var(--Lavender);
+
 }
 
 .card-three {
     background-color: var(--Yellow);
+
 }
 
 .card-four {
     background-color: var(--White);
+
 }
+
 h1, h2 {
     font-family: var(--main-font);
     color: var(--White);
