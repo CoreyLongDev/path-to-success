@@ -123,10 +123,36 @@ article {
 
 .choose-us-container {
     background-color: var(--Pink);
-    padding: 1em;
+    padding: 1rem 1em;
     margin: 3rem -1rem 1rem -1rem;
 }
 
+.choose-us-container h2 {
+    padding-bottom: .5rem;
+}
+
+.choose-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5em;
+    text-align: center;
+}
+
+.card-one {
+    background-color: var(--Teal);
+}
+
+.card-two {
+    background-color: var(--Lavender);
+}
+
+.card-three {
+    background-color: var(--Yellow);
+}
+
+.card-four {
+    background-color: var(--White);
+}
 h1, h2 {
     font-family: var(--main-font);
     color: var(--White);
