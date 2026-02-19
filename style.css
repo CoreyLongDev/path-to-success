@@ -75,6 +75,41 @@ html {
     background-color: var(--Lavender);
 }
 
+h1, h2 {
+    font-family: var(--main-font);
+    color: var(--White);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#slogan {
+    color: var(--White);
+    margin-top: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+nav h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--Yellow);
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.15em;
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
+
 header {
     text-align: center;
     background-color: var(--Purple);
@@ -210,37 +245,15 @@ button {
     border-radius: 1.5rem;
     box-shadow: 7px 5px 5px var(--Dark-grey);
 }
-h1, h2 {
-    font-family: var(--main-font);
+
+footer {
+    display: flex;
     color: var(--White);
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
 }
 
-h1 {
-    font-size: 3em;
-}
-
-#slogan {
+footer a {
     color: var(--White);
-    margin-top: 0.5em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-nav h2 {
-    font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1.5em;
-    color: var(--Yellow);
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 1.15em;
-    color: var(--Purple);
-    font-weight: bold;
-    padding: 0.75rem 0;
 }
