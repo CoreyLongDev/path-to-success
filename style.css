@@ -71,6 +71,10 @@ table {
 }
 
 /* GLOBAL CSS */
+html {
+    background-color: var(--Lavender);
+}
+
 header {
     text-align: center;
     background-color: var(--Purple);
@@ -86,12 +90,13 @@ nav {
 nav h3 {
     font-weight: bold;
     font-style: italic;
+    color: var(--Dark-grey);
 }
 
 nav a {
     display: block;
     text-decoration: none;
-    /* color: var(--Purple); */
+    color: var(--Purple);
     font-weight: bold;
     text-transform: uppercase;
     background-color: var(--White);
@@ -101,9 +106,18 @@ nav a {
 
 body {
     font-family: var(--secondary-font);
-    background-color: var(--Lavender);
+    background-color: var(--Purple);
     margin: 0 auto;
     max-width: 450px;
+    padding: 1em 1em;
+}
+
+section {
+    background-color: var(--White);
+    color: var(--Dark-grey);
+    padding: 1.5em;
+    margin: 1.5em 0;
+    border-radius: 8px;
 }
 
 h1, h2 {
@@ -116,10 +130,10 @@ h1 {
 }
 
 #slogan {
-    /* font-size: 1.25em; */
     color: var(--White);
     margin-top: 0.5em;
 }
+
 h2 {
     font-size: 2em;
 }
@@ -136,4 +150,7 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+    color: var(--Purple);
+    font-weight: bold;
+    padding: 0.75rem 0;
 }
